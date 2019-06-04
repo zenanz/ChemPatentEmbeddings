@@ -4,7 +4,7 @@ This repository contains an ELMo and a word2vec model pre-trained on a 1 Billion
 
 ## Dataset
 
-The dataset consists of 84,076 patent documents from 7 different patent authorities.
+The dataset we used for training consists of 84,076 patent documents from 7 different patent authorities. The dataset will **NOT** be made publicly available.
 
 |PO|# of Document|# of Sentences|# of Tokens|
 |--|-------------|--------------|-----------|
