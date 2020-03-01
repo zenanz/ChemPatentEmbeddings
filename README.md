@@ -19,7 +19,7 @@ The dataset we used for training consists of 84,076 patent documents from 7 diff
 
 ## Word2Vec
 
-We trained the word2vec model with same hyper-parameters in [Pyysalo et al., (2013)](http://bio.nlplab.org/pdf/pyysalo13literature.pdf) for 10 iterations. The binary file (.bin) can be converted to word vectors (.txt) following instructions in [**gensim** documentation](https://radimrehurek.com/gensim/models/keyedvectors.html).
+We trained the word2vec model with same hyper-parameters in [Pyysalo et al., (2013)](http://bio.nlplab.org/pdf/pyysalo13literature.pdf) for 10 iterations. The word vectors file (.txt) can be directly loaded into your neural network framework.
 
 ## ELMo
 
