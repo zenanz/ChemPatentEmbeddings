@@ -21,13 +21,13 @@ The dataset we used for training consists of 84,076 patent documents from 7 diff
 
 We trained the word2vec model with same hyper-parameters in [Pyysalo et al., (2013)](http://bio.nlplab.org/pdf/pyysalo13literature.pdf) for 10 iterations. The word vectors file (.txt) can be directly loaded into your neural network framework. Note that words **shorter than 25 characters** in length were replaced by *long_token* during training.
 
-Please click [here](http://chemu.eng.unimelb.edu.au:8080/patent_w2v/) to download the pre-trained word vectors.
+Please click [here](https://chemu.eng.unimelb.edu.au/patent_w2v/) to download the pre-trained word vectors.
 
 ## ELMo
 
 Default hyper-parameters in [Peters et al., (2018)](https://arxiv.org/abs/1802.05365) were used. Note that words **shorter than 25 characters** in length were replaced by *long_token* during training (cf. max. character length is 50 under default setting).
 
-Please click [here](http://chemu.eng.unimelb.edu.au:8080/ELMo/) to download ELMo model.
+Please click [here](https://chemu.eng.unimelb.edu.au/ELMo/) to download ELMo model.
 
 * **Fine Tuning**:  Load *weights.hdf5* and *options.json* into the original [ELMo implementation](https://github.com/allenai/bilm-tf) and train it further on your own datasets.
 
